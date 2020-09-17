@@ -1,0 +1,6 @@
+C:\Users\Jr\Documents\Visual Studio 2015\Projects\PokerHandShowdown\PokerHandShowdown.Common\bin\Debug\PokerHandShowdown.Common.dll
+C:\Users\Jr\Documents\Visual Studio 2015\Projects\PokerHandShowdown\PokerHandShowdown.Common\bin\Debug\PokerHandShowdown.Common.pdb
+C:\Users\Jr\Documents\Visual Studio 2015\Projects\PokerHandShowdown\PokerHandShowdown.Common\bin\Debug\Autofac.dll
+C:\Users\Jr\Documents\Visual Studio 2015\Projects\PokerHandShowdown\PokerHandShowdown.Common\bin\Debug\Autofac.xml
+C:\Users\Jr\Documents\Visual Studio 2015\Projects\PokerHandShowdown\PokerHandShowdown.Common\obj\Debug\PokerHandShowdown.Common.dll
+C:\Users\Jr\Documents\Visual Studio 2015\Projects\PokerHandShowdown\PokerHandShowdown.Common\obj\Debug\PokerHandShowdown.Common.pdb

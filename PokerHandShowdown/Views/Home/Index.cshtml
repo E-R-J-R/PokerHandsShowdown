@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Poker Hand Showdown</h1> <br />
+</div>
+
+
+
+<div ng-controller="pokerController" style="margin: 50px;">
+    <button type="button" class="btn btn-warning" ng-click="shuffle()">Shuffle</button> <button type="button" class="btn btn-primary" ng-click="evaluate()">Evaluate Player Cards and Show Winner</button>
+    <div ng-repeat="player in playerList">
+        <div>
+            <table>
+                <tr>
+                    <td colspan="4">
+                        <div><h1>{{player.PlayerName}}</h1></div>
+                    </td>
+                    <td>
+                        <div ng-if="winner == player.PlayerName" class="alert alert-success fade in">
+                            <strong>Winner</strong>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><div><playing-card rank="{{player.Hand[0].Rank}}" suit="{{player.Hand[0].Suit}}" /></div></td>
+                    <td><div><playing-card rank="{{player.Hand[1].Rank}}" suit="{{player.Hand[1].Suit}}" /></div></td>
+                    <td><div><playing-card rank="{{player.Hand[2].Rank}}" suit="{{player.Hand[2].Suit}}" /></div></td>
+                    <td><div><playing-card rank="{{player.Hand[3].Rank}}" suit="{{player.Hand[3].Suit}}" /></div></td>
+                    <td><div><playing-card rank="{{player.Hand[4].Rank}}" suit="{{player.Hand[4].Suit}}" /></div></td>
+                </tr>
+            </table>
+        </div> 
+        <br />
+    </div> 
+</div>

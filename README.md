@@ -1,2 +1,2 @@
 # PokerHandsShowdown
-Demo Application
+Demo Poker Hand simulator utlizing C# .Net and AngularJS
